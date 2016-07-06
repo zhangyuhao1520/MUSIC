@@ -1,0 +1,271 @@
+body{
+	font-family: Arial,Tahoma,"hiragino sans gb",Helvetica;
+	font-size: 12px;
+	color: #fff;
+	list-style: none;
+}
+a {
+    text-decoration: none;
+}
+ul li{
+	list-style: none;
+/*	color: #fff;*/
+}
+.music-bottom{
+	height: 115px;
+	width: 540px;
+	background: #09ACF8;
+	left: 0;
+	right:0;
+	bottom: 0;
+	margin: auto;
+	position: fixed;
+	box-shadow: 2px 2px 5px;
+}
+/*底部结束 顶部开始*/
+.music-top{
+	height: 455px;
+	width: 540px;
+	background: #6FCBF6;
+	left: 0;
+	right: 0;
+	bottom: 115px;
+	margin: auto;
+	position: fixed;
+	box-shadow: 1px 1px 5px;
+}
+/*顶部 表头*/
+.music-top-title{
+	height: 52px;
+	background: #09ACF8;
+	position: relative;
+	/*top: -12px;*/
+}
+.music-top-title ul{
+/*	width: 20%;*/
+	float: left;
+	/*position: absolute;*/
+	
+	/*line-height: 52px;*/
+	padding-left: 20px;
+}
+.music-top-title ul li a{
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	font-family: Microsoft Yahei;
+}
+.music-top-title span{
+	float: right;
+	width: 10%;
+	content: #fff;
+	line-height: 52px;
+	color: #eee;
+	cursor: pointer;
+}
+.music-top-title .xiala{
+	background: url(player_bg.png)-269px -97px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+.liebiao{
+	height: 455px;
+	position: relative;
+}
+.liebiao01{
+	height: 24px;
+/*	position: absolute;*/
+	line-height: 24px;
+}
+.liebiao01:hover{
+	cursor: pointer;
+    color:#000000;
+    background: #F5053B;
+
+}
+.name01{
+	float: left;
+	width: 40%;
+	left:-20px;
+	position: relative;
+
+}
+.name02{
+	float: left;
+	width: 40%;
+}
+.name03{
+	float: left;
+	width: 20%;
+	right: -50px;
+	position: relative;
+}
+.photo{
+	width: 90px;
+	height: 90px;
+	margin: 15px 10px;
+	background: #0cc65b;
+	position: relative;
+}
+.btn-xiao{
+	width: 100px;
+	height: 20px;
+/*	background: #000000;*/
+	left: 100px;
+	bottom: 12px;
+	position: absolute;
+}
+.xiao01{
+	width: 16px;
+	height: 15px;
+	float: left;
+	background: url(player_bg.png) 0px -127px ;
+	border-radius: 9px;
+	margin-left: 5px;	
+}
+.xiao02{
+	width: 16px;
+	height: 15px;
+	float: left;
+	background: url(player_bg.png) -16px -127px;
+	border-radius: 9px;
+	margin-left: 5px;
+}
+.xiao03{
+	width: 16px;
+	height: 15px;
+	float: left;
+	background: url(player_bg.png) -96px -127px;;
+	border-radius: 9px;
+	margin-left: 5px;
+}
+.xinxi{
+	top:0;
+	left: 110px;
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	color: #ccc;
+}
+.xinxi-one{
+	color: #fff;
+}
+.radio{
+	width: 75px;
+    height: 20px;
+    border-radius: 10px;
+    left: 190px;
+    top: 10px;	
+    position: absolute;
+    background: url(player_bg.png) -453px -55px;
+    overflow: hidden;
+}
+.kongzhi{
+	width: 280px;
+	height: 42px;
+	right: 0;
+	top: 45px;
+	position: absolute;
+}
+.shang{
+	float: left;
+	width: 36px;
+    height: 28px;
+	background: url(player_bg.png) -69px 0px;
+	margin-top: 6px;
+}
+.bofang{
+	width: 42px;
+    height: 42px;
+    float: left;
+    background: url(player_bg.png)-105px -42px;
+    margin-left: 3px;
+}
+.xia{
+	float: left;
+	width: 36px;
+    height: 28px;
+	background: url(player_bg.png) -147px -32px;
+	margin-top: 6px;
+	margin-left: 3px;
+}
+.xunhuan{
+	float: left;
+	width: 36px;
+    height: 28px;
+	background: url(player_bg.png) -219px -32px;
+	margin-top: 6px;
+	margin-left: 3px;
+}
+.yinliang{
+	display: inline-block;
+    width: 100px;
+    height: 24px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 8px;
+}
+.yinliang-btn{
+	float: left;
+	width: 24px;
+	height: 24px;
+	
+	background: url(player_bg.png) -189px -35px;
+}
+.yinliang-heng{
+	height: 11px;
+	background: url(player_bg.png) -293px 0;
+	float: left;
+	display: inline-block;
+	position: absolute;
+	width: 71px;
+	margin-top: 6px;
+	margin-left: 1px;
+}
+.yinliang-yuan{
+	width: 6px;
+    height: 11px;
+    position: absolute; 
+    float: left;
+    background: url(player_bg.png)-366px 0;
+    right: 21px;
+    margin-top: 6px;
+}
+.zhankai{
+	width: 67px;
+    height: 28px;;
+    position: absolute;
+    top: 0;
+    right: 11px;
+}
+.ci{
+	display: block;
+	width: 14px;
+    height: 14px;
+    background: url(player_bg.png) -452px 0;
+    float: right;
+    right: 2px;
+    top: 7px;
+    position: absolute;
+}
+/*.shumu{
+	display:block;
+	width: 24px;
+	height: 28px;
+	float: right;
+	background: blue;
+}*/
+.xia-liebiao{
+	display: block;
+	width: 47px;
+    height: 28px;
+    position: absolute;
+	float: right;
+	background: url(player_bg.png) -222px -97px;
+}
